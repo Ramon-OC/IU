@@ -16,29 +16,24 @@
             <h1>Creación de un Sitio web</h1>
         </div>
 
-
-        <h3>Información de contacto </h3>
+        <h3>Información de contacto</h3>
         <ol>
             <li>
-                <label for="empresa">¿Cuál es el nombre de la empresa u organización para la cual se diseñará el sitio 
-                web?</label>
+                <label for="empresa">Nombre de la empresa u organización:</label>
                 <br> 
-                <span class="sugerencia">Por favor, indique el nombre que desea que aparezca en el sitio. Si se trata de un sitio web personal, puede proporcionar su nombre completo.</span>
-
+                <span class="sugerencia">Por favor, indique el nombre que desea que aparezca en el sitio.</span>
                 <input type="text" id="empresa" name="empresa" required>
-
             </li>
             <li>
-                <label for="nombre">¿Cuál es su nombre?</label>
+                <label for="nombre">Su nombre:</label>
                 <br> 
-                <span class="sugerencia">Ingrese un nombre para que podamos ponernos en contacto con usted.</span>
+                <span class="sugerencia">Ingrese su nombre para contactarlo.</span>
                 <input type="text" id="nombre" name="nombre" required>
             </li>
             <li>
-                <label for="correo">¿Cuál es su correo electrónico?</label>
+                <label for="correo">Su correo electrónico:</label>
                 <br> 
-                <span class="sugerencia">Ingrese un correo para darle una respuesta.
-                </span>
+                <span class="sugerencia">Ingrese un correo para darle una respuesta.</span>
                 <input type="email" id="correo" name="correo" required>
             </li>
         </ol>
@@ -47,11 +42,11 @@
 
         <ol start="4">
             <li>
-                <label>¿Cuál es el propósito principal de la página web?</label>
+                <label>Propósito principal de la página web:</label>
                 <br> 
-                <span class="sugerencia">Seleccione una de las siguientes opciones.</span>
+                <span class="sugerencia">Seleccione una opción.</span>
                 <ul style="list-style-type: none;">
-                    <li><input type="radio" name="proposito" value="a"> Promocionar productos/servicios.</li>
+                    <li><input type="radio" name="proposito" value="a" required> Promocionar productos/servicios.</li>
                     <li><input type="radio" name="proposito" value="b"> Proporcionar información.</li>
                     <li><input type="radio" name="proposito" value="c"> Vender productos en línea.</li>
                     <li><input type="radio" name="proposito" value="d"> Compartir contenido educativo.</li>
@@ -61,9 +56,9 @@
                 </ul>
             </li>
             <li>
-                <label>¿Qué tipo de contenido desea mostrar en la página principal?</label>
+                <label>Tipo de contenido en la página principal:</label>
                 <br>
-                <span class="sugerencia">Seleccione una o más de las siguientes opciones.</span>
+                <span class="sugerencia">Seleccione una o más opciones.</span>
                 <ul style="list-style-type: none;">
                     <li><input type="checkbox" name="contenido" value="a"> Imágenes.</li>
                     <li><input type="checkbox" name="contenido" value="b"> Texto descriptivo.</li>
@@ -77,30 +72,30 @@
                 </ul>
             </li>
             <li>
-                <label>¿Tiene algún logotipo o elemento gráfico existente que le gustaría incorporar en el diseño del sitio?</label>
+                <label>¿Tiene algún logotipo o elemento gráfico existente para incorporar en el diseño del sitio?</label>
                 <br> 
-                <span class="sugerencia">Seleccione una de las siguientes opciones.</span>
+                <span class="sugerencia">Seleccione una opción.</span>
                 <ul style="list-style-type: none;">
-                    <li><input type="radio" name="elemento_grafico" value="a"> Sí.</li>
+                    <li><input type="radio" name="elemento_grafico" value="a" required> Sí.</li>
                     <li><input type="radio" name="elemento_grafico" value="b"> No.</li>
                 </ul>
             </li>
             <li>
-                <label>¿Hay alguna preferencia en cuanto a la estructura de la página?</label>
+                <label>Preferencia en cuanto a la estructura de la página:</label>
                 <br> 
-                <span class="sugerencia">Seleccione una de las siguientes opciones.</span>
+                <span class="sugerencia">Seleccione una opción.</span>
                 <ul style="list-style-type: none;">
-                    <li><input type="radio" name="estructura" value="a"> Una sola página larga con desplazamiento vertical.</li>
+                    <li><input type="radio" name="estructura" value="a" required> Una sola página larga con desplazamiento vertical.</li>
                     <li><input type="radio" name="estructura" value="b"> Varias páginas separadas con menú de navegación.</li>
                     <li><input type="radio" name="estructura" value="c"> Menús desplegables para una navegación más fluida.</li>
-                    <li><input type="radio" name="estructura" value="d"> Página de inicio consecciones destacadas y enlaces a páginas internas.</li>
+                    <li><input type="radio" name="estructura" value="d"> Página de inicio con secciones destacadas y enlaces a páginas internas.</li>
                     <li><input type="radio" name="estructura" value="e"> No tengo una preferencia específica.</li>
                 </ul>
             </li>
             <li>
-                <label>¿Desea incluir alguna funcionalidad adicional en el sitio web?</label>
+                <label>Funcionalidades adicionales en el sitio web:</label>
                 <br> 
-                <span class="sugerencia">Seleccione una o más de las siguientes opciones.</span>
+                <span class="sugerencia">Seleccione una o más opciones.</span>
                 <ul style="list-style-type: none;">
                     <li><input type="checkbox" name="funcionalidad" value="a"> Formulario de contacto.</li>
                     <li><input type="checkbox" name="funcionalidad" value="b"> Carrito de compras para comercio en línea.</li>
@@ -114,38 +109,40 @@
                 </ul>
             </li>
             <li>
-                <label>¿Tiene alguna preferencia en cuanto a colores o paleta de colores para el diseño del sitio web?</label>
+                <label>Preferencia en cuanto a colores o paleta de colores para el diseño del sitio web:</label>
                 <br> 
-                <span class="sugerencia">Seleccione una de las siguientes opciones.</span>
+                <span class="sugerencia">Seleccione una opción.</span>
                 <ul style="list-style-type: none;">
-                    <li><input type="radio" name="colores" value="a"> Colores específicos.</li>
+                    <li><input type="radio" name="colores" value="a" required> Colores específicos.</li>
                     <li><input type="radio" name="colores" value="b"> Sin preferencia.</li>
                 </ul>
             </li>
             <li>
-                <label>¿Hay algún sitio web cuyo diseño admire o que sirva como referencia para lo que tiene en mente?</label>
-                <input type="text" name="referencia">
+                <label for="referencia">Sitio web de referencia (si lo tiene):</label>
+                <input type="text" id="referencia" name="referencia" pattern="https?://.+">
             </li>
             <li>
-                <label>¿Cuál es su presupuesto para el desarrollo del sitio?</label>
-                <input type="text" name="presupuesto">
+                <label>Presupuesto para el desarrollo del sitio:</label>
+                <input type="number" class="presupuesto" id="presupuesto" name="presupuesto" min="0" step="1" required>
             </li>
             <li>
-                <label>¿Cuál es la fecha límite o plazo para completar el desarrollo del sitio web?</label>
-                <input type="date" name="fecha_limite">
+                <label>Fecha límite o plazo para completar el desarrollo del sitio web:</label>
+                <input type="date" class="fecha_limite" id="fecha_limite" name="fecha_limite" placeholder="Ingrese la fecha límite en formato dd/mm/aaaa" pattern="\d{2}/\d{2}/\d{4}" required>
             </li>
+              
+              
             <li>
                 <label>¿Quién se encargará de mantener y actualizar el sitio web una vez que esté en línea?</label>
                 <br> 
-                <span class="sugerencia">Seleccione una de las siguientes opciones.</span>
+                <span class="sugerencia">Seleccione una opción.</span>
                 <ul style="list-style-type: none;">
-                    <li><input type="radio" name="mantenimiento" value="a"> Yo mismo.</li>
+                    <li><input type="radio" name="mantenimiento" value="a" required> Yo mismo.</li>
                     <li><input type="radio" name="mantenimiento" value="b"> Necesitaré asistencia para actualizaciones periódicas.</li>
                 </ul>
             </li>
             <li>
-                <label>¿Existen otros requerimientos o funcionalidades específicas que desee agregar y que no se mencionaron en el cuestionario?</label>
-                <textarea name="otros_requerimientos" rows="4"></textarea>
+                <label>Otros requerimientos o funcionalidades específicas que desea agregar:</label>
+                <textarea id="otros_requerimientos" name="otros_requerimientos" rows="4"></textarea>
             </li>
         </ol>
         <input type="submit" value="Enviar">

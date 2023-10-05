@@ -2,80 +2,110 @@ body {
     font-family: Helvetica;
     padding: 20px;
     font-size: 16px;
+    background-image: linear-gradient(to right, #7968b8 0%, #5058a1 50%, #4494d6 100%);
     line-height: 1.5;
-    color: #333;
+    color: white;
+  }
+
+.presupuesto,
+.fecha_limite {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  border-radius: 8px;
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.container {
+.presupuesto,
+.fecha_limite {
+  color: white;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+  
+  .container {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background: #f9f9f9;
-    border-radius: 10px;
+    background-color: #e7dede;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   }
-
-h1{
-    font-weight: 600;  
-}
-
-form {
+  
+  h1 {
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 0;
+    color: white;
+  }
+  
+  form {
     max-width: 600px;
     margin: 0 auto;
-}
-
-ol {
+    padding: 30px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.30);
+    box-shadow: 0 8px 32px rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    border: 1px solid rgba(255, 255, 255, 0.18 );
+  }
+  
+  ol {
     list-style-type: decimal;
     padding-left: 20px;
-}
-
-li {
+  }
+  
+  li {
     margin-bottom: 10px;
-}
-
-label {
+  }
+  
+  label {
     font-weight: bold;
-}
-
-.sugerencia {
-    color: #999;
+    color: white;
+  }
+  
+  .sugerencia {
+    color: white;
     font-size: 14px;
     margin-top: 5px;
-}
-
-input[type="text"],
-input[type="email"],
-
-textarea {
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
     box-sizing: border-box;
     margin-top: 5px;
-}
-
-
-
-input[type="submit"] {
-    background: #007bff;
+    border-radius: 8px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  input[type="submit"] {
     color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
     margin-top: 20px;
-}
-
-form {
-    background: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-}
-
-.center {
+    border-radius: 30px;
+    background: rgba(43, 82, 209, 0.822);
+    box-shadow: 0 8px 32px rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    border: 1px solid rgba(255, 255, 255, 0.18 );
+  }
+  
+  .center {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
+  
